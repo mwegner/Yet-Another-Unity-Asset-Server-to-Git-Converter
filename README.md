@@ -31,11 +31,11 @@ I'll gladly trade accuracy and archival peace of mind over speed for a one-time 
 
 I'm on macOS, which seems to include the correct PHP extensions for PostgreSQL out of the box.  The script is meant to be used as a command line:
 
-Clone/download repository
+Download repository as ZIP (probably don't want to clone, since you'll end up with a git repository inside a git repository).
 
 The script injects the .gitignore/.gitattributes files into the repository history.  Edit if needed, or simply delete.
 
-Then:
+Then, from within the repository root:
 
     mkdir someproject
     git init
